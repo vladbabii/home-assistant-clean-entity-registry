@@ -14,7 +14,7 @@ Run the script with
 regenerate.php /home/your-user/.homeassistant/entity_registry.yaml "http://your-home-assistant:8123/api/states" delete > output.yaml
 ```
 
-now you can inspect the output.yaml and see if everyhing is ok, then replace the original file with this one.
+now you can inspect the output.yaml and see if everyhing is ok, then replace the original file with this one ( please stop home assistant then replace the file then start it again to make sure everything is ok)
 
 If you do not put "delete" at the end, the unneeded entities will be commented in the output file, instead of being removed.
 
